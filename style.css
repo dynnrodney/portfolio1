@@ -374,7 +374,7 @@ nav {
         font-family: 'Courier New', Courier, monospace;
         font-weight: normal;
         font-size: 35px;
-        padding: 20px;
+        padding: 35px;
       }
 
       .pic-btn {
@@ -390,13 +390,13 @@ nav {
 
       .demo, .repo {
         position: relative;
-        top: 190px;
-        left: 35px;
+        top: 40%;
+        left: 50%;
         height: 90px;
         width: 250px;
         font-size: 35px;
       }
-
+      
       .tech-logos {
         display: flex;
         justify-content: space-evenly;
