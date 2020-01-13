@@ -374,7 +374,9 @@ nav {
         font-family: 'Courier New', Courier, monospace;
         font-weight: normal;
         font-size: 35px;
-        padding: 35px;
+        padding: 40px;
+        padding-left: 60px;
+        text-align: left;
       }
 
       .pic-btn {
@@ -392,11 +394,12 @@ nav {
         position: relative;
         top: 40%;
         left: 50%;
+        right: 50%;
         height: 90px;
         width: 250px;
         font-size: 35px;
       }
-      
+
       .tech-logos {
         display: flex;
         justify-content: space-evenly;
