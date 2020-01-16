@@ -151,7 +151,8 @@ nav {
   }
 
   .projects h3 {
-    display: none;
+    text-align: center;
+    font-weight: normal;
   }
 
   .projects h4 {
@@ -175,11 +176,11 @@ nav {
   }
 
   .demo:hover {
-    color: #23395B;
+    font-size: 22px;
   }
 
   .repo:hover {
-    color: #23395B;
+    font-size: 22px;
   }
 
   .tech-logos {
@@ -283,6 +284,14 @@ nav {
       height: 70px;
       width: 200px;
       font-size: 25px;
+    }
+
+    .demo:hover {
+      font-size: 23px;
+    }
+
+    .repo:hover {
+      font-size: 23px;
     }
 
     .contacts h2 {
@@ -398,6 +407,14 @@ nav {
         height: 90px;
         width: 250px;
         font-size: 35px;
+      }
+
+      .demo:hover {
+        font-size: 32px;
+      }
+
+      .repo:hover {
+        font-size: 32px;
       }
 
       .tech-logos {
