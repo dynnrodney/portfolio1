@@ -48,18 +48,16 @@ nav {
 .container {
   background-color: #FFFFFF;
 }
-
-@media screen and (min-width: 375px) {
   
-  body {
+body {
     overflow-x: hidden;
   }
 
-  .logo h4 {
+.logo h4 {
     font-size: 25px;
   }
 
-  .burger div {
+.burger div {
     width: 25px;
     height: 3px; 
     background-color: #23395B;
@@ -67,7 +65,7 @@ nav {
     cursor: pointer;
   }
   
-  .links {
+.links {
     position: absolute;
     left: 0px;
     height: 25%;
@@ -82,67 +80,63 @@ nav {
     transition: transform .6s ease-in;
   }
 
-  .links li {
+.links li {
     list-style: none;
     font-size: 14px;
     padding: 2px;
   }
 
-  /*.links li {
-    opacity: 0;
-  }*/
-
-  .burger {
+.burger {
     display: block;
     cursor: pointer;
   }
 
-  .links-active {
+.links-active {
     transform: translateX(0%);
     height: 25%;
     border-radius: 1%;
     background-color: #FFFFFF;
   }
 
-  .headline {
+.headline {
     font-size: 20px;
     background-color: #FFFFFF;
   }
 
-  .headline img {
+.headline img {
     width: 100%;
   }
 
-  .headline h2 {
+.headline h2 {
     padding: 15px 0px 0px 15px;
     letter-spacing: 2px;
     font-weight: normal;
   }
 
-  .about-me h2 {
+.about-me h2 {
     text-transform: uppercase;
     text-align: center;
     padding: 15px;
     letter-spacing: 3px;
   }
 
-  .about-me {
+.about-me {
     padding-left: 20px;
     padding-right: 20px;
     font-size: 20px;
   }
 
-  .about-me h4 {
+.about-me h4 {
     font-weight: normal;
   }
 
-  .projects {
+.projects {
     font-size: 20px;
     margin-top: 30px;
     text-align: center;
   }
 
-  .projects h2 {
+.projects h2 {
     text-transform: uppercase;
     text-align: center;
     padding: 15px;
@@ -150,63 +144,90 @@ nav {
     letter-spacing: 3px;
   }
 
-  .projects h3 {
-    text-align: center;
+.projects h3 {
     font-weight: normal;
+    padding: 20px;
   }
 
-  .projects h4 {
-    display: none;
+.projects h4 {
+    font-weight: normal;
+    font-size: 20px;
+    text-align: left;
+    padding: 20px;
+    line-height: 25px;
   }
 
-  .projects img {
+.projects img {
     width: 90%;
     padding-top: 15px;
   }
-  .demo, .repo {
-    height: 50px;
-    width: 120px;
+.demo, .repo {
+    height: 70px;
+    width: 150px;
     background-color: #23395B;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     text-transform: uppercase;
     margin-top: 40px;
-    margin-bottom: 40px;
     cursor: pointer;
   }
 
-  .demo:hover {
-    font-size: 22px;
+.demo:hover {
+    font-size: 20px;
   }
 
-  .repo:hover {
-    font-size: 22px;
+.repo:hover {
+    font-size: 20px;
   }
 
-  .tech-logos {
-    display: none;
+.tech-logos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px;
   }
 
-  .contacts {
+  .tech-logos .html {
+    width: 20%;
+  }
+
+  .tech-logos .css {
+    width: 14%;
+  }
+
+  .tech-logos .javascript {
+    width: 22%;
+  }
+
+  .tech-logos .jquery {
+    width: 35%;
+  }
+
+.contacts{
     text-align: center;
   }
 
-  .contacts h2 {
+.contacts h2 {
     text-transform: uppercase;
     font-size: 30px;
     letter-spacing: 3px;
+    margin: 20px;
   }
 
-  .contacts img {
+.contacts img {
     width: 100px;
-    margin: 20px 0px 50px 0px;
+    margin: 20px;
   }
+
+.contacts .email {
+  width: 105px;
+}
   
-  .sub-sections {
+.sub-sections {
     margin-top: 70px;
   }
 
-  #divider1 {
+#divider1 {
     background-color: #23395B;
     height: 10%;
     width: 60%;
@@ -215,7 +236,7 @@ nav {
     margin-top: 50px;
   }
 
-  #divider2 {
+#divider2 {
     background-color: #23395B;
     height: 10%;
     width: 60%;
@@ -224,7 +245,7 @@ nav {
     margin-top: 50px;
   }
 
-  #divider3 {
+#divider3 {
     background-color: #23395B;
     height: 10%;
     width: 60%;
@@ -451,5 +472,3 @@ nav {
       }
     }
   }
-}
-
