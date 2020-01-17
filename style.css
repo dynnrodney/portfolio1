@@ -301,18 +301,28 @@ body {
       letter-spacing: 3px;
     }
 
+    .projects h3 {
+      font-size: 40px;
+    }
+
+    .projects h4 {
+      font-size: 30px;
+      line-height: 35px;
+      padding: 30px;
+    }
+
     .demo, .repo {
-      height: 70px;
-      width: 200px;
-      font-size: 25px;
+      height: 90px;
+      width: 220px;
+      font-size: 30px;
     }
 
     .demo:hover {
-      font-size: 23px;
+      font-size: 27px;
     }
 
     .repo:hover {
-      font-size: 23px;
+      font-size: 27px;
     }
 
     .contacts h2 {
@@ -322,6 +332,10 @@ body {
     .contacts img {
       width: 170px;
       padding: 20px;
+    }
+
+    .contacts .email {
+      width: 185px;
     }
 
     #divider2 {
