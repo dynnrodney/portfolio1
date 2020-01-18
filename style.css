@@ -16,6 +16,8 @@ nav {
   min-height: 8vh;
   background-color: #FFFFFF;
   padding-top: 2vh;
+  position: fixed;
+  width: 100%;
 }
 
 .logo {
@@ -37,7 +39,6 @@ nav {
   color: #23395B;
   text-decoration: none;
   letter-spacing: 2px;
-  
 }
 
 .burger {
@@ -68,10 +69,11 @@ body {
 .links {
     position: absolute;
     left: 0px;
-    height: 25%;
+    height: 300%;
     top: 8vh;
     border-radius: 1%;
     background-color: #FFFFFF;
+    ;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,8 +84,13 @@ body {
 
 .links li {
     list-style: none;
-    font-size: 14px;
+    font-size: 13px;
     padding: 2px;
+    text-transform: uppercase
+  }
+
+  .links li:hover {
+    font-size: 16px;
   }
 
 .burger {
@@ -96,6 +103,7 @@ body {
     height: 25%;
     border-radius: 1%;
     background-color: #FFFFFF;
+    height: 300%;
   }
 
 .headline {
@@ -105,10 +113,11 @@ body {
 
 .headline img {
     width: 100%;
+    margin-top: 80px;
   }
 
 .headline h2 {
-    padding: 15px 0px 0px 15px;
+    padding: 15px 25px 0px 25px;
     letter-spacing: 2px;
     font-weight: normal;
   }
@@ -262,7 +271,11 @@ body {
     }
 
     .links li {
-      font-size: 30px;
+      font-size: 23px;
+    }
+
+    .links li:hover {
+      font-size: 27px;
     }
 
     .logo h4 {
@@ -378,18 +391,25 @@ body {
         transform: none;
       }
 
+      .links li {
+        font-size: 22px;
+      }
+
+      .links li:hover {
+        font-size: 22px;
+      }
+
       .links a {
         padding: 75px;
         color: white;
-      }
-
-      .links a:hover {
         cursor: pointer;
       }
+
 
       .headline img {
         width: 45%;
         padding: 35px;
+        margin-top: 160px;
       }
 
       .headline {
@@ -437,7 +457,7 @@ body {
       .demo, .repo {
         position: relative;
         top: 40%;
-        left: 50%;
+        left: 15%;
         right: 50%;
         height: 90px;
         width: 250px;
@@ -459,7 +479,7 @@ body {
         padding: 50px;
       }
 
-      .tech-logos img {
+      .tech-logos .html {
         width: 15%;
       }
 
